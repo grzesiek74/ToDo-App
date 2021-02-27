@@ -1,0 +1,31 @@
+h1, h3 {
+    color: white;
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p {
+    margin-top: 40px;
+}
+
+.active {
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.done {
+    margin-bottom: 50px;
+}
+
+span {
+    font-size: 16px;
+    margin-left: 40px;
+}

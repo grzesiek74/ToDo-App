@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;500&display=swap');
+
+input {
+    padding: 10px;
+    min-width: 250px;
+    border: none;
+    margin-right: 15px;
+    font-family: 'Kufam', cursive;
+    outline: none;
+}
+
+button.btnAdd {
+    padding: 10px 15px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Kufam', cursive;
+    cursor: pointer;
+    background-color: rgb(245, 207, 101);
+    transition: background-color .3s, box-shadow .3s;
+    box-shadow: 2px 2px 5px 3px black;
+    outline: none;
+}
+
+.btnAdd:hover {
+    background-color: rgb(252, 191, 24);
+    box-shadow: 2px 2px 3px 2px black;
+}

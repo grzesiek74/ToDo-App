@@ -1,0 +1,37 @@
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+button i {
+    font-size: 16px;
+}
+
+.check {
+    color: rgb(181, 228, 13);
+    transition: color .3s;
+}
+
+.check:hover {
+    color: rgb(0, 255, 0);
+}
+
+.delete {
+    color: rgb(219, 101, 101);
+    transition: color .3s;
+}
+
+.delete:hover {
+    color: rgb(228, 43, 43);
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns, .btnDel {
+    margin-right: 40px;
+}
+

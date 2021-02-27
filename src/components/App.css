@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@400;500&display=swap');
+
+
+body {
+  background-image: linear-gradient(45deg, rgb(224, 198, 48) 0%, rgb(238, 159, 55) 80%);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  margin-top: 50px;
+  border: 1px solid black;
+  background-color: #00BFA6;
+  width: 500px;
+  min-height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 4px black;
+}
+
+.App h1, h3 {
+  font-family: 'Grandstander', cursive;
+}
+
+h1.appTitle {
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding: 10px;
+  color: white;
+  font-size: 40px;
+}
+
+.taskAdd {
+  margin-bottom: 20px;
+}
+
